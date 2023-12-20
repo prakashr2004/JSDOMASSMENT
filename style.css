@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Varela+Round&display=swap');
+body{
+    background-color:#7b67c3;
+    font-family: 'Varela Round', sans-serif;
+}
+#container{
+
+    border-right: 1px solid black;
+    width: 300px;
+    padding: 40px;
+   
+}
+
+.ProcuctName{
+    width: 300px;
+   padding: 10px;
+}
+.Amount{
+
+}
+.inpuContent{
+ display: flex;
+    margin: 30px auto;
+    gap: 40px;
+width: 700px;
+height: 400px;
+background-color:white;
+border-radius: 10px;
+
+}
+#TextNmaae{
+border: none;
+outline: none;
+border-bottom: 1px solid black;
+width: 200px;
+
+}
+#num{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+}
+
+.appentContet{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#ul{
+  width: 300px;
+ 
+
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    display: flex;
+}
+#appent{
+ margin-right: 30px;
+}
+span{
+    opacity: 0;
+}
+
+#appent:hover span{
+    opacity: 1;
+}
+.visible{
+
+    visibility: hidden;
+    color: rgb(204,2,2);
+    font-size:13px;
+}
+.visibleAll{
+    visibility: visible;
+ }
+ input {
+    width:20px;
+ }
+#btn{
+    width: 220px;
+    height: 
+    30px;
+    font-size: 20px;
+background-color: #451ad3;
+color: white;
+border-radius: 5px;
+border: none;
+margin-top: 20px;
+
+}
+#h2{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+.appentContet{
+    border-bottom: 1px solid gray;
+ 
+}
+#appent{
+    text-align: center;
+    width: 300px;
+  
+}
+#ul{
+    width: 250px;
+    max-height: 500px;
+    overflow-y: auto;
+
+}
+.liset{
+    border-bottom: 2px solid black;
+    
+}
+li{
+    margin-bottom: 12px;
+}
+.para{
+   color: red;
+}
+#total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li:nth-child(odd){
+   background-color:#7b67c3;
+}
+
+.para li{
+    opacity: 0;
+    background: none;
+}
+#appent:hover  li{
+opacity: 1;
+}
+
